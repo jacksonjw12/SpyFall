@@ -28,29 +28,7 @@ var worldExample = {
 
 }
 
-var worlds = [{
-	"name":"room1",
-	"stage":"menu",
-	"location":"",
-	"first":"",
-	"players":[
-	{
-		"id":"000022",
-		"socket":123,
-		"name":"jack"
-	},
-	{
-		"id":"FF5555",
-		"socket":1235,
-		"name":"kristin"
-	}
-
-	],
-	//"tileData":[{"id":999955,"x":3,"y":5,"z":0},{"id":990022,"x":6,"y":5,"z":0},{"id":110090,"x":10,"y":5,"z":0}],//instead of 2d array i will try a tile object system
-
-	"playerData":[ {"id":"000022","isSpy":true,"role":"Test"}, {"id":"FF5555","isSpy":false,"role":"testNormy"}]
-
-}];
+var worlds = [];
 
 var connectedPlayers = [
 	{
