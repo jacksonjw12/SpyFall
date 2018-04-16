@@ -314,7 +314,7 @@ function initializeSockets(server){
 
 		socket.on('disconnect', function (data){
 		// 	console.log("disconnecting")
-			disconnect(data,socket,io,true)
+			//disconnect(data,socket,io,true)
 
 
 			console.log("player disconnected");
